@@ -3,7 +3,7 @@ it('demoqa_test', function() {
   /* ==== Generated with Cypress Studio ==== */
   cy.visit('https://demoqa.com/webtables');
   cy.get('#addNewRecordButton').click();
-  cy.get('#firstName').clear().type('Juan');
+  cy.get('#firstName').clear().type('Juan Jose');
   cy.get('#lastName').clear().type('Castro');
   cy.get('#userEmail').clear().type('juanjose@gmail.com');
   cy.get('#age').clear().type('65');
