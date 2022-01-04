@@ -1,0 +1,14 @@
+/* ==== Test Created with Cypress Studio ==== */
+it('demoqa_test', function() {
+  /* ==== Generated with Cypress Studio ==== */
+  cy.visit('https://demoqa.com/webtables');
+  cy.get('#addNewRecordButton').click();
+  cy.get('#firstName').clear().type('Juan');
+  cy.get('#lastName').clear().type('Castro');
+  cy.get('#userEmail').clear().type('juanjose@gmail.com');
+  cy.get('#age').clear().type('65');
+  cy.get('#salary').clear().type('780000');
+  cy.get('#department').clear().type('Tecnologia');
+  cy.get('#submit').click();
+  /* ==== End Cypress Studio ==== */
+});
