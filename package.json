@@ -1,0 +1,22 @@
+{
+  "name": "cypres-e2e-framework",
+  "version": "1.0.0",
+  "description": "e2e Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+      "cypress:open": "cypress open"
+  
+  },
+  "keywords": [
+    "E2E",
+    "Testing",
+    "Cypress",
+    "Curso"
+  ],
+  "author": "Jcastro",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}
